@@ -1,0 +1,34 @@
+/* Calendar.css */
+
+/* カレンダー全体を画面幅の80%、高さの80%にする */
+.fc {
+  width: 90vw;
+  height: 80vh;
+  margin: 0 auto; /* 中央寄せ */
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  padding: 2vh; /* 画面高さに対する余白 */
+}
+
+/* ヘッダー部分（年月やボタン） */
+.fc-toolbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 1vh 2vw;
+}
+
+/* 今日の日付を強調 */
+.fc-day-today {
+  background-color: rgba(255, 223, 128, 0.3) !important;
+}
+
+/* イベントのサイズや見た目 */
+.fc-event {
+  background-color: #4caf50 !important;
+  border: none !important;
+  color: white !important;
+  border-radius: 0.5vh !important;
+  padding: 0.3vh 0.5vw;
+  font-size: 1.2vh; /* 画面サイズに応じた文字サイズ */
+}
